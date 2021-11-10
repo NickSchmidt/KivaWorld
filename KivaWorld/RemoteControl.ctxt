@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=RemoteControl
+comment0.text=\r\n\ This\ is\ the\ class\ that\ controls\ Kiva's\ actions.\ Implement\ the\ <code>run()</code>\r\n\ method\ to\ deliver\ the\ pod\ and\ avoid\ the\ obstacles.\r\n\ \r\n\ @author\ Nicholas\ Schmidt\r\n\ @version\ ATA\ Coding\ Project\ due\ 10/22/2021\r\n
+comment1.params=
+comment1.target=RemoteControl()
+comment1.text=\r\n\ Build\ a\ new\ RemoteControl\r\n
+comment2.params=commands
+comment2.target=KivaCommand[]\ convertToKivaCommands(java.lang.String)
+comment2.text=\r\n\ Converts\ keyboard\ input\ into\ Kiva\ Robot\ Language.\r\n\ \r\n\ <p>\ Stores\ the\ inputs\ into\ an\ array.\ It's\ helpful\ to\ loop\ through\ the\ array\ and\ execute\r\n\ the\ commands\ for\ the\ Kiva\ Robot.</p>\r\n\ \r\n\ @exception\ IllegalArgumentException\ on\ illegal\ input\ commands\r\n\ @return\ a\ KivaCommand\ array\ of\ actions\r\n
+comment3.params=
+comment3.target=void\ run()
+comment3.text=\r\n\ The\ controller\ that\ directs\ Kiva's\ activity.\ Prompts\ the\ user\ for\ the\ floor\ map\r\n\ to\ load,\ displays\ the\ map,\ and\ asks\ the\ user\ for\ the\ commands\ for\ Kiva\ to\ execute.\r\n
+numComments=4

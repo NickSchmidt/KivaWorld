@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=KivaCommand
+comment0.text=\r\n\ Sets\ the\ Keyboard\ characters\ for\ Remote\ Control\ movement.\ For\ example\:\ If\ user\ entered\ "F",\ the\ command\r\n\ is\ FORWARD.\ If\ the\ user\ entered\ D,\ the\ command\ is\ DROP\r\n\ \r\n\ @author\ Nicholas\ Schmidt\r\n\ @version\ ATA\ Coding\ Project\ due\ 10/22/2021\r\n
+comment1.params=abbrev
+comment1.target=KivaCommand(char)
+comment2.params=
+comment2.target=char\ getDirectionKey()
+comment2.text=\r\n\ Converts\ keyboard\ input\ into\ Kiva\ Robot\ language.\r\n\ @return\ The\ Keyboard\ character\ for\ intended\ action.\r\n
+numComments=3
